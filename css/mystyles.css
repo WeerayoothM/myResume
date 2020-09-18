@@ -355,16 +355,12 @@ section.resume-section .resume-section-content {
         animation: yourAnimation 3s ease 0s infinite normal forwards;
     }
 
-
-#about{
-    background-color: black;
-    width: 100%;
-}
 #about {
-    width: 100vw;
+    width: 100% ;
     background-image: url("../assets/img/photo-1510915228340-29c85a43dcfe.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: black ;
     /* border: red solid 2px; */
     /* padding-bottom: 0; */
 }
@@ -556,4 +552,29 @@ section.resume-section .resume-section-content {
 
 #certifications div ul li a{
   color: #6c757d;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+  background-color: black;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent; 
+  border-radius: 10px;
+  background-color: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6c757d; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #15a7ab; 
 }
